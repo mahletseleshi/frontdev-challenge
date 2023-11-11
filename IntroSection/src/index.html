@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link href="/dist/output.css" rel="stylesheet" />
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <section class="font-Epilogue p-10">
+    <div class="flex items-center justify-between mb-10">
+      <img src="../images/logo.svg" alt="logo" />
+      <img class="sm:hidden" src="../images/icon-menu.svg" alt="menu" />
+      <ul class="hidden sm:flex gap-10">
+        <div class="flex items-center gap-1">
+          <li>Features</li>
+          <img class="w-3 h-3" src="../images/icon-arrow-down.svg" alt="arrow">
+        </div>
+        <div class="flex items-center gap-1">
+          <li>Company</li>
+          <img class="w-3 h-3" src="../images/icon-arrow-down.svg " alt="arrow">
+        </div>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+      <div class="hidden sm:flex items-center justify-center gap-10">
+        <button>Login</button>
+        <button class="border-2 w-28 p-3 border-slate-500 rounded-xl">Register</button>
+      </div>
+    </div>
+    <div class="sm:flex sm:flex-row-reverse w-full">
+      <div class="sm:pt-2 sm:pr-10">
+        <img class="sm:hidden" src="../images/image-hero-mobile.png" alt="hero" />
+        <img class="hidden sm:block sm:max-w-xmd sm:mr-20" src="../images/image-hero-desktop.png" alt="hero" / >"
+      </div>
+      <div class="sm:flex-col sm:p-20">
+        <div class="text-center  ">
+          <h1 class="text-4xl font-black mb-5 mt-5 sm:text-xxl sm:leading-11 sm:text-left"><span>Make</span><br> remote work</h1>
+          <p class="text-xl text-gray-500 sm:text-left sm:w-2/3">
+            Get your team in sync, no matter your location. Streamline processes,
+            create team rituals, and watch productivity soar.
+          </p>
+        </div>
+        <div class="flex items-center justify-center sm:justify-start">
+          <button class="bg-black text-white p-4 rounded-2xl text-xl w-48 mb-16 mt-10 sm:mb-20" type="submit">
+            Learn More
+          </button>
+        </div>
+        <div class="flex justify-center items-center gap-4 sm:justify-start sm:gap-10">
+          <img src="../images/client-audiophile.svg" alt="audiophile" />
+          <img src="../images/client-databiz.svg" alt="databiz" />
+          <img src="../images/client-maker.svg" alt="maker" />
+          <img src="../images/client-meet.svg" alt="meet" />
+        </div>
+      </div>
+    </div>  
+  </section>
+</body>
+
+</html>

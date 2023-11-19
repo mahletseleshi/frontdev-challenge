@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link href="https://mahletseleshi.github.io/frontdev-challenge/News%20HomePage/dist/output.css" rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
- 
+  <title>Frontend Mentor | News homepage</title>
 
 </head>
 <body>
@@ -58,7 +58,7 @@
         We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
         But is it really fulfilling its promise?
       </p>
-      <button class="flex items-center justify-center text-start w-36 text-white text-sm bg-red-500 p-2">READ MORE</button>
+      <button class="flex text-xs items-center justify-center text-start w-36 text-white transition-3sec cursor-pointer bg-red-500 p-2 hover:bg-black :hover:text-white">READ MORE</button>
     </div>
    </div>
   </div>
@@ -66,7 +66,7 @@
   <div class="bg-black text-white py-10 px-5 md:w-80">
     <h2 class="text-yellow-500 mb-4 text-3xl font-semibold">New</h2>
 
-    <h3 class="text-sm leading-11 mb-2">
+    <h3 class="text-sm leading-11 mb-2 hover:text-yellow-600 cursor-pointer font-bold">
       Hydrogen VS Electric Cars
     </h3 class="text-sm mb-2">
     <p class="text-xs text-gray-400 mb-7">
@@ -74,7 +74,7 @@
     </p>
   
 
-    <h3  class="text-sm mb-2">
+    <h3  class="text-sm mb-2  hover:text-yellow-600 cursor-pointer font-bold">
       The Downsides of AI Artistry
     </h3>
     <p class="text-xs text-gray-400 mb-7 leading-6">
@@ -82,7 +82,7 @@
     </p>
   
 
-    <h3  class="text-sm mb-2">
+    <h3  class="text-sm mb-2  hover:text-yellow-600 cursor-pointer font-bold">
       Is VC Funding Drying Up?
     </h3>
     <p class="text-xs text-gray-400 mb-7 leading-7">
@@ -93,31 +93,31 @@
 </section>
 
 
-<section class="flex flex-col space-y-12 items-start mt-16 md:flex-row md:items-center md:justify-center md:mt-36 md:space-x-24">
-<div class="flex md:flex-row items-center justify-center">
-  <img src="../assets/images/image-retro-pcs.jpg" alt="retro-pics" class="w-24 mr-7">
+<section class="flex flex-col items-start mt-16 md:flex-row md:mt-36 md:items-center md:justify-center md:space-x-24">
+<div class="flex mb-10 md:flex-row items-center justify-center ">
+  <img src="../assets/images/image-retro-pcs.jpg" alt="retro-pics" class="w-36 md:w-24 mr-7">
   <div>
     <h3 class="text-4xl mb-4  text-gray-400 md:text-2xl font-bold">01</h3>
-    <h4 class=" text-2xl  font-bold mb-2">Reviving Retro Pcs</h4>
+    <h4 class=" text-2xl  font-bold mb-2 md:text-lg">Reviving Retro Pcs</h4>
     <p class="text-gray-500 text-sm w-52">What happens when old PCs are given modern upgrades</p>
   </div>
 </div>
 
 
-<div class="flex md:flex-row items-center justify-center">
-  <img src="../assets/images/image-top-laptops.jpg" alt="retro-pics" class="w-24 mr-7">
+<div class="flex mb-10 md:flex-row items-center justify-center">
+  <img src="../assets/images/image-top-laptops.jpg" alt="retro-pics" class=" w-36 md:w-24 mr-7">
   <div>
     <h3 class="text-4xl mb-4 text-gray-400 md:text-2xl font-bold">02</h3>
-    <h4  class="text-xl  font-bold mb-2">Top 10 Laptops of 2022</h4>
+    <h4  class="text-xl  font-bold mb-2  md:text-lg">Top 10 Laptops of 2022</h4>
     <p class="text-gray-500 text-sm w-52">Our best picks for varioous needs and budgets</p>
   </div>
 </div>
 
-<div  class="flex md:flex-row items-center justify-center">
-  <img src="../assets/images/image-gaming-growth.jpg" alt="retro-pics"  class="w-24 mr-7" >
+<div  class="flex mb-10 md:flex-row items-center justify-center">
+  <img src="../assets/images/image-gaming-growth.jpg" alt="retro-pics"  class="w-36 md:w-24 mr-7" >
   <div>
     <h3  class="text-4xl mb-4 text-gray-400 md:text-2xl font-bold">03</h3>
-    <h4 class="text-xl  font-bold mb-2">The Growth of Gaming</h4>
+    <h4 class="text-xl  font-bold mb-2  md:text-lg">The Growth of Gaming</h4>
     <p class="text-gray-500 text-sm w-52">How the pandemic has sparked fresh opportunites</p>
   </div>
 </div>

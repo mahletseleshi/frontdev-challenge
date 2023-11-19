@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | News homepage</title>
+
+</head>
+<body>
+<div id="home" class="blur-sm:hidden px-20 py-10 md:px-32 font-Inter">
+
+
+
+  <!--NAVBAR-->
+  <nav class="flex items-center justify-between">
+    <div>
+    <img src="../assets/images/logo.svg" alt="logo">
+    </div>
+    <div class="flex items-center relative">
+    <ul class="hidden md:flex items-center gap-10">
+      <li>Home</li>
+      <li>New</li>
+      <li>Popular</li>
+      <li>Trending</li>
+      <li>Categories</li>
+    </ul>
+    <img id="menu"  class="md:hidden" src="../assets/images/icon-menu.svg" alt="menu">
+    <img id="close"   class="hidden md:hidden z-50 -mr-10 " src="../assets/images/icon-menu-close.svg" alt="menu close">
+  </div>
+  </nav>
+
+  <ul id="menu-list" class="absolute hidden top-0 right-0 md:hidden bg-slate-100 py-60 p-6 pr-40  space-y-7">
+    <li>Home</li>
+    <li>New</li>
+    <li>Popular</li>
+    <li>Trending</li>
+    <li>Categories</li>
+  </ul>
+  
+
+
+<!--MAIN HERO SECTION-->
+<section class="flex flex-col md:flex-row md:items-start justify-between md:my-14">
+  <div class=" md:w-[900px] md:h-[5px] md:mr-8">
+   <img class="hidden md:block" src="../assets/images/image-web-3-desktop.jpg" alt="retro ">
+   <img class="mt-10 w-full md:hidden" src="../assets/images/image-web-3-mobile.jpg" alt="retro mob">
+   <div class="flex flex-col md:flex-row items-start justify-between my-10">
+     <h1 class="mb-7 text-5xl md:mb-1 mr-16 font-extrabold">   
+        The Bright Future of Web 3.0?
+    </h1>
+    <div class="flex flex-col">
+      <p class="leading-6 text-sm mb-5">
+        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+        But is it really fulfilling its promise?
+      </p>
+      <button class="flex items-center justify-center text-start w-36 text-white text-sm bg-red-500 p-2">READ MORE</button>
+    </div>
+   </div>
+  </div>
+
+  <div class="bg-black text-white py-10 px-5 md:w-80">
+    <h2 class="text-yellow-500 mb-4 text-3xl font-semibold">New</h2>
+
+    <h3 class="text-sm leading-11 mb-2">
+      Hydrogen VS Electric Cars
+    </h3 class="text-sm mb-2">
+    <p class="text-xs text-gray-400 mb-7">
+      Will hydrogen-fueled cars ever catch up to EVs?
+    </p>
+  
+
+    <h3  class="text-sm mb-2">
+      The Downsides of AI Artistry
+    </h3>
+    <p class="text-xs text-gray-400 mb-7 leading-6">
+      What are the possible adverse effects of on-demand AI image generation?
+    </p>
+  
+
+    <h3  class="text-sm mb-2">
+      Is VC Funding Drying Up?
+    </h3>
+    <p class="text-xs text-gray-400 mb-7 leading-7">
+      Private funding by VC firms is down 50% YOY. We take a look at what that means.
+    </p>
+  
+  </div>
+</section>
+
+
+<section class="flex flex-col space-y-12 items-start mt-16 md:flex-row md:mt-36 md:space-x-24">
+<div class="flex md:flex-row items-center justify-center">
+  <img src="../assets/images/image-retro-pcs.jpg" alt="retro-pics" class="w-24 mr-7">
+  <div>
+    <h3 class="text-4xl mb-4  text-gray-400 md:text-2xl font-bold">01</h3>
+    <h4 class=" text-2xl  font-bold mb-2">Reviving Retro Pcs</h4>
+    <p class="text-gray-500 text-sm w-52">What happens when old PCs are given modern upgrades</p>
+  </div>
+</div>
+
+
+<div class="flex md:flex-row items-center justify-center">
+  <img src="../assets/images/image-top-laptops.jpg" alt="retro-pics" class="w-24 mr-7">
+  <div>
+    <h3 class="text-4xl mb-4 text-gray-400 md:text-2xl font-bold">02</h3>
+    <h4  class="text-xl  font-bold mb-2">Top 10 Laptops of 2022</h4>
+    <p class="text-gray-500 text-sm w-52">Our best picks for varioous needs and budgets</p>
+  </div>
+</div>
+
+<div  class="flex md:flex-row items-center justify-center">
+  <img src="../assets/images/image-gaming-growth.jpg" alt="retro-pics"  class="w-24 mr-7" >
+  <div>
+    <h3  class="text-4xl mb-4 text-gray-400 md:text-2xl font-bold">03</h3>
+    <h4 class="text-xl  font-bold mb-2">The Growth of Gaming</h4>
+    <p class="text-gray-500 text-sm w-52">How the pandemic has sparked fresh opportunites</p>
+  </div>
+</div>
+
+</section>
+  
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
